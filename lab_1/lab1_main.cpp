@@ -140,9 +140,7 @@ case 2:
 	 break;
 case 3:
 	for (int i = 0; i < 20; i++)
-	{
-
-		cout << x_0 << " ";
+	{//		cout << x_0 << " ";
 		x_0 = thirdMethod(x_0);
 		//cout<<i<<"" << thirdMethod(i);
 	}
