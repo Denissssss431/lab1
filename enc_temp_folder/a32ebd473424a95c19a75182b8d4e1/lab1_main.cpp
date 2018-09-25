@@ -102,13 +102,13 @@ int sixthMethod(int x_0) {
 }
 int main() {
 
-	int x_0;
-	cout << "x_0= ";
-	cin >> x_0;
+	
 	int methodType;
 	cout << "Method number: ";
 	cin >> methodType;
-
+	int x_0;
+	cout << "x_0= ";
+	cin >> x_0;
 	int(*pMethods)(int) = nullptr;
 		switch (methodType) {
 
